@@ -38,3 +38,7 @@ DRUG_COLS = [
     "glipizide-metformin", "glimepiride-pioglitazone", "metformin-rosiglitazone",
     "metformin-pioglitazone",
 ]
+
+# Risk tiers, defined by percentile of predicted risk (shared by Steps 5-7).
+# (name, top-percent cutoff): e.g. "Very high" = top 5% of patients.
+RISK_TIERS = [("Very high", 5), ("High", 20), ("Medium", 50), ("Low", 100)]

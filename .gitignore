@@ -3,4 +3,5 @@ data/processed/
 __pycache__/
 *.pyc
 .venv/
+.streamlit/
 models/*.joblib
